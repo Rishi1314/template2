@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@300&family=Teko:wght@300&family=Yatra+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="tiltbg">
+        <div class="tiltmain">
+            <div class="boxt" data-tilt data-tilt-glare data-tilt-max-glare="0.2" data-tilt-scale="1.1" >
+                <div class="aboutmetext">
+                    <p style="font-family: 'Lobster', cursive; font-size: 200%";>About Me </p>
+                    <p style="font-family: 'Teko', sans-serif; font-size:100%; margin:5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque viverra justo nec ultrices. Ultricies mi quis hendrerit dolor magna eget est. Risus feugiat in ante metus dictum at. Maecenas ultricies mi eget mauris pharetra et. bbiuhou wehubvubew vuwuvhwv uvjwviouw hwviu iuw</p>
+                </div>
+                <div class="circle">
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="otherpagesintro">
+        <div class="bar"></div>
+        <img class="loading" src="images\giphy.gif" alt="">
+    </div> 
+    
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="aboutme.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jslib/vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".boxt"), {
+            max: 50,
+            speed: 10,
+        });
+        
+    </script>
+</body>
+</html>
